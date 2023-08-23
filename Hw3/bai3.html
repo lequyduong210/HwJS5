@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tính tiền thuế</title>
+  </head>
+  <body>
+    <div class="form-group">
+      <label for="">Họ và tên</label>
+      <input type="text" class="form-control" id="ten" placeholder="Nhập tên" />
+    </div>
+    <div class="form-group">
+      <label for="">Tổng thu nhập năm (vd: 60tr => nhập 60)</label>
+      <input
+        type="number"
+        class="form-control"
+        id="thunhap"
+        placeholder="Nhập tổng thu nhập năm"
+      />
+    </div>
+    <div class="form-group">
+      <label for="">Số người phụ thuộc</label>
+      <input
+        type="text"
+        class="form-control"
+        id="nguoiphuthuoc"
+        placeholder="Nhập số người phụ thuộc"
+      />
+    </div>
+    <button onclick="tinh()">Tính tiền thuế</button>
+    <div id="result"></div>
+    <script src="./bai3.js"></script>
+  </body>
+</html>
